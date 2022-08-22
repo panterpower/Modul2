@@ -1,10 +1,20 @@
+import Homework1_1.Animal;
+import Homework1_1.Flyable;
+import Homework1_1.Zoo;
+
 public class Homework1 {
 
     public static void main(String[] args) {
 
+        Animal animal = new Animal();
+        Flyable fly = new Flyable();
+        Zoo<Animal, Flyable> animalObjectZoo = new Zoo<>(animal, fly);
+
+
 
         //Задача №1
         //Создать интерфейсы flyable (метод void fly()), swimable (метод void swim), bitable (метод void bite)
+
         //Создать класс Zoo, который может содержать в себе 3-х вида животных
         //1. Животное плавающее
         //2. Животное летающее
