@@ -1,16 +1,17 @@
-import Homework1_1.Animal;
-import Homework1_1.Flyable;
-import Homework1_1.Zoo;
+import Homework1_1.*;
 
 public class Homework1 {
 
     public static void main(String[] args) {
+        AnimalFlyable bird = new AnimalFlyable();
+        AnimalSwimable fish = new AnimalSwimable();
+        AnimalBitable tiger = new AnimalBitable();
 
-        Animal animal = new Animal();
-        Flyable fly = new Flyable();
-        Zoo<Animal, Flyable> animalObjectZoo = new Zoo<>(animal, fly);
 
-
+        Zoo<AnimalFlyable, AnimalSwimable, AnimalBitable> zoo1 = new Zoo<>(bird, fish, tiger);
+        zoo1.getSwimable().swim();
+        zoo1.getBitable().bite();
+        zoo1.getFlyable().fly();
 
         //Задача №1
         //Создать интерфейсы flyable (метод void fly()), swimable (метод void swim), bitable (метод void bite)
@@ -19,6 +20,9 @@ public class Homework1 {
         //1. Животное плавающее
         //2. Животное летающее
         //3. Животное кусающее
+
+
+
         //В классе Zoo будут методы получения и замены этих животных. Получить мы должны конкретные классы,
         //а не интерфейсы.
         //Зоопарк имеет методы - void feedFlyable(),void feedSwimable(),void feedBitable(). Логика внутри метода:
@@ -27,6 +31,29 @@ public class Homework1 {
         //Создать по одному экземпляру на каждый класс.
         //Создать 2 экземпляра зоопарка и распределить животных по зоопаркам.
         //Никаких проверок if instanceof быть не должно, и внутри Zoo будут лежать Generics, а не интерфейсы.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         //Задача №2
         //Создать класс MyList с атрибутами T[] objects, int size. T - generics.

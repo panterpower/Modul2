@@ -1,27 +1,39 @@
 package Homework1_1;
 
-public class Zoo<A, T> {
-    private A animal;
-    private T action;
+public class Zoo<A extends Animal, B extends Animal, C extends Animal> {
 
-    public Zoo(A animal, T action) {
-        this.animal = animal;
-        this.action = action;
+    private A animalFlyable;
+    private B animalSwimable;
+    private C animalBitable;
+
+    public Zoo(A animalFlyable, B animalSwimable, C animalBitable) {
+        this.animalFlyable = animalFlyable;
+        this.animalSwimable = animalSwimable;
+        this.animalBitable = animalBitable;
     }
 
-    public A getAnimal() {
-        return animal;
+    public A getFlyable() {
+        return animalFlyable;
     }
 
-    public void setAnimal(A animal) {
-        this.animal = animal;
+    public void setFlyable(A animalFlyable) {
+        this.animalFlyable = animalFlyable;
     }
 
-    public T getAction() {
-        return action;
+    public B getSwimable() {
+        return animalSwimable;
     }
 
-    public void setAction(T action) {
-        this.action = action;
+    public void setSwimable(B animalSwimable) {
+        this.animalSwimable = animalSwimable;
     }
+
+    public C getBitable() {
+        return animalBitable;
+    }
+
+    public void setBitable(C animalBitable) {
+        this.animalBitable = animalBitable;
+    }
+
 }

@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd5ef357-4089-4863-875a-4f869e92f578" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Homework1_1/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework1_1/Zoo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Bitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/AnimalBitable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/AnimalFlyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Swimable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/AnimalSwimable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Modul2\exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,11 +47,26 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-11",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Homework1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework1" />
+      <module name="Modul2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Homework1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,13 +97,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661177166145</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Zoo">
+      <created>1661178225990</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661178225990</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="delete test" />
     <MESSAGE value="Сделал 3 интерфейса с методами." />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал 3 интерфейса с методами." />
+    <MESSAGE value="Zoo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zoo" />
   </component>
 </project>
