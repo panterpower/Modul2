@@ -1,5 +1,7 @@
 package Homework1_1;
 
+import Homework1_1.Task1.Animal;
+
 public class Zoo<A extends Animal, B extends Animal, C extends Animal> {
 
     private A animalFlyable;

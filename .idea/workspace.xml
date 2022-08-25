@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd5ef357-4089-4863-875a-4f869e92f578" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Homework1_1/Task2/MyList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/AnimalBitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/AnimalBitable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/AnimalFlyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/AnimalFlyable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/AnimalSwimable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/AnimalSwimable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/Task1/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/AnimalBitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/Task1/AnimalBitable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/AnimalFlyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/Task1/AnimalFlyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/AnimalSwimable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/Task1/AnimalSwimable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661263307009</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Task 1">
+      <created>1661427409434</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661427409434</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -117,6 +127,7 @@
     <MESSAGE value="delete test" />
     <MESSAGE value="Сделал 3 интерфейса с методами." />
     <MESSAGE value="Zoo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zoo" />
+    <MESSAGE value="Task 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 1" />
   </component>
 </project>

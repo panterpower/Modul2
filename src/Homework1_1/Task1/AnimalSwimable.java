@@ -1,4 +1,4 @@
-package Homework1_1;
+package Homework1_1.Task1;
 
 public class AnimalSwimable extends Animal{
     public void swim(){
