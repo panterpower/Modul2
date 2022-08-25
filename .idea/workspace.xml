@@ -7,11 +7,9 @@
     <list default="true" id="cd5ef357-4089-4863-875a-4f869e92f578" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Bitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/AnimalBitable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/AnimalFlyable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Swimable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/AnimalSwimable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/AnimalBitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/AnimalBitable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/AnimalFlyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/AnimalFlyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/AnimalSwimable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/AnimalSwimable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +41,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-11",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Homework1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework1" />
@@ -104,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661178225990</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Zoo">
+      <created>1661263307009</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661263307009</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

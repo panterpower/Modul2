@@ -2,6 +2,6 @@ package Homework1_1;
 
 public class AnimalSwimable extends Animal{
     public void swim(){
-        System.out.println(" плывет");
+        System.out.println("Животное плавающее");
     }
 }
