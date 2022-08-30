@@ -1,10 +1,7 @@
-import Homework1_1.*;
 import Homework1_1.Task1.AnimalBitable;
 import Homework1_1.Task1.AnimalFlyable;
 import Homework1_1.Task1.AnimalSwimable;
-import Homework1_1.Task2.MyList;
-
-import java.sql.Array;
+import Homework1_1.Task1.Zoo;
 
 public class Homework1 {
     //Задача №1
@@ -23,24 +20,8 @@ public class Homework1 {
     //Никаких проверок if instanceof быть не должно, и внутри Zoo будут лежать Generics, а не интерфейсы.
 
     public static void main(String[] args) {
-        AnimalFlyable bird1 = new AnimalFlyable();
-        AnimalFlyable bird2 = new AnimalFlyable();
-        AnimalSwimable fish1 = new AnimalSwimable();
-        AnimalSwimable fish2 = new AnimalSwimable();
-        AnimalBitable tiger1 = new AnimalBitable();
-        AnimalBitable tiger2 = new AnimalBitable();
 
-        Zoo<AnimalFlyable, AnimalSwimable, AnimalBitable> zoo1 = new Zoo<>(bird1, fish1, tiger1);
-        zoo1.getSwimable().swim();
-        System.out.println(zoo1.getSwimable());
-        zoo1.getBitable().bite();
-        zoo1.getFlyable().fly();
 
-        Zoo<AnimalFlyable, AnimalSwimable, AnimalBitable> zoo2 = new Zoo<>(bird2, fish2, tiger2);
-        zoo2.getSwimable().swim();
-        System.out.println(zoo2.getSwimable());
-        zoo2.getBitable().bite();
-        zoo2.getFlyable().fly();
 
         //Задача №2
         //Создать класс MyList с атрибутами T[] objects, int size. T - generics.
