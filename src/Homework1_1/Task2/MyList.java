@@ -2,7 +2,7 @@ package Homework1_1.Task2;
 
 import java.util.ArrayList;
 
-public class MyList <T>{
+public class MyList<T> {
     //Задача №2
     //Создать класс MyList с атрибутами T[] objects, int size. T - generics.
     //Массив T[] будет создаваться при создании экземпляра класса MyList с размерностью 3.
@@ -12,33 +12,55 @@ public class MyList <T>{
     //    T <> generics;
     //1.Создать новый массив T[] с размерностью в два раза больше предыдущей.
 
+    private T[] objects = (T[]) new Object[3];
     private int size;
-    private Object[] objects;
-    private Integer[] integers = new Integer[size];
 
-    public MyList(int size, Object[] objects) {
-        this.size = size;
-        this.objects = (T[]) new Object[3];
-    }
-
-    public boolean MultiplierArray(Integer size) {
-
-        Integer[] newArray = new Integer[integers.length * 2];
-        for (int i = 0; i < integers.length; i++) {
-            newArray[i] = integers[i];
-        }
-        this.integers = newArray;
-
-
-        for (int i = 0; i < integers.length; i++) {
-            if (integers[i] == null) {
-                break;
+    public void add(T element) {
+        if (objects.length == size) {
+            T[] newObjects = (T[]) new Object[objects.length * 2];
+            for (int i = 0; i < objects.length; i++) {
+                newObjects[i] = objects[i];
             }
+            this.objects = newObjects;
         }
-        return true;
+        objects[size] = element;
+        size++;
     }
 
+    public T[] getObjects() {
+        return objects;
+    }
 }
+
+//    Моя неверная реализация
+//
+//    private int size;
+//    private Object[] objects;
+//    private Integer[] integers = new Integer[size];
+//
+//    public MyList(int size, Object[] objects) {
+//        this.size = size;
+//        this.objects = (T[]) new Object[3];
+//    }
+//
+//    public boolean MultiplierArray(Integer size) {
+//
+//        Integer[] newArray = new Integer[integers.length * 2];
+//        for (int i = 0; i < integers.length; i++) {
+//            newArray[i] = integers[i];
+//        }
+//        this.integers = newArray;
+//
+//
+//        for (int i = 0; i < integers.length; i++) {
+//            if (integers[i] == null) {
+//                break;
+//            }
+//        }
+//        return true;
+//    }
+//
+//}
 
 
 //        for (int i = 0; i < size; i++) {
