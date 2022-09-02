@@ -1,8 +1,3 @@
-import Homework1_1.Task1.AnimalBitable;
-import Homework1_1.Task1.AnimalFlyable;
-import Homework1_1.Task1.AnimalSwimable;
-import Homework1_1.Task1.Zoo;
-
 public class Homework1 {
 
 

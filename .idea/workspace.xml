@@ -5,9 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd5ef357-4089-4863-875a-4f869e92f578" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Homework1_1/Task2/Runner2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework2/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task2/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1_1/Task2/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/AnimalBitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/AnimalBitable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/AnimalFlyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/AnimalFlyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/AnimalSwimable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/AnimalSwimable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Bat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Bat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Bitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Bitable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Bobr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Bobr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Eagle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Flyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Lion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Swimable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Swimable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Tiger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task2/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task2/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task2/Runner2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task2/Runner2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +69,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Homework2" />
+      <recent name="Homework2.User" />
       <recent name="Homework1_1.Task1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner2">
+  <component name="RunManager" selected="Application.Homework2">
     <configuration name="Homework1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework1" />
       <module name="Modul2" />
@@ -62,12 +82,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework2" />
+      <module name="Modul2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework1_1.Task1.Runner" />
+      <option name="MAIN_CLASS_NAME" value="Homework1.Task1.Runner" />
       <module name="Modul2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework1_1.Task1.*" />
+          <option name="PATTERN" value="Homework1.Task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,11 +103,11 @@
       </method>
     </configuration>
     <configuration name="Runner2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework1_1.Task2.Runner2" />
+      <option name="MAIN_CLASS_NAME" value="Homework1.Task2.Runner2" />
       <module name="Modul2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework1_1.Task2.*" />
+          <option name="PATTERN" value="Homework1.Task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,8 +117,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Runner2" />
-        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.Homework2" />
+        <item itemvalue="Application.Homework1.Task2.Runner2" />
+        <item itemvalue="Application.Homework1.Task1.Runner" />
         <item itemvalue="Application.Homework1" />
       </list>
     </recent_temporary>
@@ -168,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661839744455</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Задание 2">
+      <created>1661840865330</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661840865330</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -180,6 +215,7 @@
     <MESSAGE value="1-3" />
     <MESSAGE value="1-1" />
     <MESSAGE value="Задание 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 1" />
+    <MESSAGE value="Задание 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 2" />
   </component>
 </project>

@@ -1,6 +1,4 @@
-package Homework1_1.Task2;
-
-import java.util.ArrayList;
+package Homework1.Task2;
 
 public class MyList<T> {
     //Задача №2

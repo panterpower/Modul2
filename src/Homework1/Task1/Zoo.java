@@ -1,6 +1,4 @@
-package Homework1_1.Task1;
-
-import Homework1_1.Task1.Animal;
+package Homework1.Task1;
 
 public class Zoo<F extends Flyable, B extends Bitable, S extends Swimable> {
 
