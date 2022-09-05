@@ -5,27 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd5ef357-4089-4863-875a-4f869e92f578" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Homework2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework2/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/AnimalBitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/AnimalBitable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/AnimalFlyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/AnimalFlyable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/AnimalSwimable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/AnimalSwimable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Bat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Bat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Bitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Bitable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Bobr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Bobr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Eagle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Flyable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Lion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Swimable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Swimable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Tiger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task1/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task1/Zoo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task2/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task2/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1_1/Task2/Runner2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Task2/Runner2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework2/User.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +43,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -118,8 +104,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Homework2" />
-        <item itemvalue="Application.Homework1.Task2.Runner2" />
-        <item itemvalue="Application.Homework1.Task1.Runner" />
         <item itemvalue="Application.Homework1" />
       </list>
     </recent_temporary>
@@ -207,6 +191,7 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test" />
     <MESSAGE value="delete test" />
     <MESSAGE value="Сделал 3 интерфейса с методами." />
