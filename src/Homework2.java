@@ -33,6 +33,13 @@ public class Homework2 {
                 .collect(Collectors.toList());
         System.out.println(sortedList);
 
+        // Task 3
+        boolean anyMath = lists.stream()
+                .map(e -> e.stream().reduce((a, b) -> a + b).orElse(0))
+                .anyMatch(e -> e == 12);
+        System.out.println(anyMath);
+
+
     }
 
 

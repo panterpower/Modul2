@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd5ef357-4089-4863-875a-4f869e92f578" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662361398416</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Task 2">
+      <created>1662362152844</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662362152844</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,6 +211,7 @@
     <MESSAGE value="Задание 1" />
     <MESSAGE value="Задание 2" />
     <MESSAGE value="Task 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 1" />
+    <MESSAGE value="Task 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 2" />
   </component>
 </project>
