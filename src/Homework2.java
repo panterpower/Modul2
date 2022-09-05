@@ -25,6 +25,15 @@ public class Homework2 {
                 .reduce((a, b) -> a +b)
                 .ifPresentOrElse(e -> System.out.println(e), () -> System.out.println(0));
 
+        // Task 2
+        List<List<Integer>> lists = List.of(List.of(1, 2), List.of(3, 4, 5), List.of());
+        List<Integer> sortedList = lists.stream()
+                .sorted((a, b) -> b.size() - a.size())
+                .flatMap(e -> e.stream())
+                .collect(Collectors.toList());
+        System.out.println(sortedList);
+
     }
+
 
 }
